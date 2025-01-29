@@ -2,7 +2,7 @@
 
 A go (golang) project template with [Air](https://github.com/air-verse/air) (Hot reloading tool) and VSCode settings
 
-This project also turn on all the inlay hints in VSCode. You can preview with `cmd/helloworld/main.go`.
+This project also turn on some inlay hints in VSCode. You can preview with `cmd/helloworld/main.go`.
 
 You can also turn it off by changing/deleting the `settings.json` file in `.vscode` folder whenever you want.
 
