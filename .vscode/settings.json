@@ -1,0 +1,10 @@
+{
+  "go.toolsEnvVars": {},
+  "go.toolsManagement.autoUpdate": true,
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.parameterNames": true,
+  "go.inlayHints.rangeVariableTypes": true,
+  "go.inlayHints.assignVariableTypes": true,
+  "go.inlayHints.compositeLiteralFields": true,
+  "go.inlayHints.constantValues": true
+}
