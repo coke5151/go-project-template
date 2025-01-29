@@ -48,3 +48,4 @@ go.work
 # Air - hot reloading related files
 .air.toml
 tmp/
+testdata/
