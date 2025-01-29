@@ -31,15 +31,16 @@ tmp_dir = "tmp"
   delay = 1000
   exclude_dir = ["assets", "tmp", "vendor", "testdata"]
   exclude_file = []
-...
+# ...
 ```
 
 change the `cmd` command to the path you want to run currently.
 
-for example, to run `cmd/inlayhints/main.go`, change the `cmd` command to:
+for example, to run `cmd/inlayhints/main.go`, edit the `.air.toml` file:
 
 ```toml
-"go build -o ./tmp/main.exe ./cmd/inlayhints/main.go"
+[build]
+  cmd = "go build -o ./tmp/main.exe ./cmd/inlayhints/main.go"
 ```
 
 You only need to run the command `air` in the root of your project to start hot reloading.
